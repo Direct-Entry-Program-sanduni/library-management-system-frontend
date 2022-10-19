@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../scss/manage-menbers.scss">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script defer src="js/index.js"></script>
+    <script defer src="../js/manage-members.js"></script>
+</head>
+<body class="container">
+    <header class = "d-flex justify-content-center">
+        <a href="../index.html"><ion-icon class="icon" name="home"></ion-icon></a>
+        <h1>Manage Members</h1>
+    </header>
+    <main>
+        <div class="d-flex justify-content-between">
+            <span class="align-self-end px-1">Search Member</span>
+            <button class="btn btn-primary">+New Member</button>
+        </div>
+        
+        <div>
+            <input class="form-control mt-2" type="search" placeholder="Enter id, name, address,contact-number, etc to search" width="100%">
+        </div>
+        <table class="table table-hover mt-3" id="tbl-members">
+            <thead>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Contact Number</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>M001</td>
+                    <td>Kasun</td>
+                    
+                    <td>Matara</td>
+                    <td>0771234567</td>
+                </tr>
+                <tr>
+                    <td>M002</td>
+                    <td>Nuwan</td>
+                   
+                    <td>Galle</td>
+                    <td>0713452617</td>
+                </tr>
+                <tr>
+                    <td>M003</td>
+                    <td>Ruwan</td>
+                    
+                    <td>Panadura</td>
+                    <td>0713452617</td>
+                </tr>
+                <tr>
+                    <td>M004</td>
+                    <td>Supun</td>
+                    
+                    <td>Colombo</td> 
+                    <td>0713452617</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4" class="text-center">No menbers to display</td>
+                </tr>
+            </tfoot>
+    
+        </table>
+        <nav class="d-flex justify-content-center">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+          </nav>
+    </main>
+</body>
+</html>

@@ -1,0 +1,31 @@
+header{
+    position: relative;
+    h1{
+        ion-icon{
+            vertical-align: middle;
+            padding-right: 10px;
+        }
+    }
+    a{
+
+    }
+}
+
+#tbl-members{
+    th:first-child,
+    tbody td:first-child{
+        width: 75px;
+        text-align: center;
+    }
+
+    th:nth-child(2),
+    tbody td:nth-child(2){
+        width: 250px;
+    }
+
+    th:last-child,
+    tbody td:last-child{
+        width: 150px;
+        text-align: center;
+    }
+}
