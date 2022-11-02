@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+}
+.wrapper{
+    background-color: rgb(33, 238, 43);
+    margin: 50px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.icon{
+    font-size: 3rem;
+    text-align: center;
+}
+
+nav{
+    div{
+        div{
+            div{
+                div{
+                    div{
+                        padding-top: 20px;
+                        li{
+                            a{
+                                text-decoration: none;
+                                font-size: 1.5rem;
+                                color: green;
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.wrapper:hover{
+    background-color: rgb(192, 228, 138);
+    color: rgb(7, 63, 7);
+}
+footer{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
