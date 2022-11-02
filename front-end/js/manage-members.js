@@ -2,7 +2,7 @@ const pageSize = 3;
 let page = 3;
 
 getMembers();
-function getMembers(query=`${('$#txt-search').val()}`){
+function getMembers(query=`${$('#txt-search').val()}`){
 
 /*Initiate a XMLHttpRequest object */
 const http = new XMLHttpRequest();
